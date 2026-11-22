@@ -1,22 +1,10 @@
-# JLPT N4 Study Vault
+# JLPT N4 小狗學習手帳 V4
 
-A lightweight offline-first JLPT N4 practice app.
+四個主分頁：
+- 題目手帳
+- 答案筆記
+- 單字複習
+- 累積複習庫
 
-## Features
-- Questions / Answers tabs
-- Practice-day management
-- A–D multiple-choice answering
-- Local browser storage
-- JSON backup / restore
-- Import question JSON / answer JSON
-- Copy questions or submissions for ChatGPT review
-- 100-question progress tracking
-
-## Deploy with GitHub Pages
-1. Upload all files in this repository.
-2. Go to **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select branch **main** and folder **/(root)**.
-5. Save and wait for GitHub Pages to publish.
-
-The site entry point is `index.html`.
+累積複習庫會自動彙整每天標記「不會」的題目內 vocab 內容，
+也支援手動新增、刪除、搜尋、分類與已會／不會標記。
